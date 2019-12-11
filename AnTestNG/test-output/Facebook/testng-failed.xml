@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Facebook]">
+  <test thread-count="5" name="logincreataccoount(failed)">
+    <classes>
+      <class name="TestNGpack.TestNG4">
+        <methods>
+          <include name="CreatNA"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- TestNGpack.TestNG4 -->
+    </classes>
+  </test> <!-- logincreataccoount(failed) -->
+</suite> <!-- Failed suite [Facebook] -->

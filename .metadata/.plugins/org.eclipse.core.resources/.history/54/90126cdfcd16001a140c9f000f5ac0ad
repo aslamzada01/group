@@ -1,0 +1,15 @@
+package datadraven;
+
+
+public class globalvariable {
+	
+	static int x=5;
+		public static void main(String[] args) {
+			
+			int y = 10;
+			
+			int z= 10+20;
+			System.out.println("sume of a and b is "+z);
+		
+		 } 
+		}

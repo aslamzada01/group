@@ -1,0 +1,16 @@
+package theJava;
+
+public class Employee 
+{
+
+	public static void main(String[] args) {
+	
+		   int  private Department department;
+		    private Address address;
+		    private Education education;
+		   
+		}
+
+	}
+
+

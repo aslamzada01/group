@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;junit_frame_work&apos; to &apos;newproject/src/alert&apos;&#x0D;&#x0A;- Original project: &apos;JUniteproject&apos;&#x0D;&#x0A;- Destination element: &apos;newproject/src/alert&apos;&#x0D;&#x0A;- Original element: &apos;JUniteproject/src/junit_frame_work&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=newproject/src&lt;alert" element1="/src&lt;junit_frame_work" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1571669860469" version="1.0"/>
+</session>

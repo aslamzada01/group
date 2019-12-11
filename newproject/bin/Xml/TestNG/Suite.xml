@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > 
+<suite name = "Function">
+<test name = "Login">
+<classes>
+
+<class name = "TestNGExecute.facebookhoExecute"></class> 
+<!-- (this is command)this is all about the xml file-->
+<!--(this is command)parameter name= "browser" value= "chrome" -->
+ 
+</classes>
+</test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="lib" path="Automation/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ahmad/Downloads/selenium-java-3.141.59.zip"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ahmad/Downloads/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry exported="true" kind="lib" path="Automation/chromedriver.exe"/>
+	<classpathentry exported="true" kind="lib" path="src/Automation Driver/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/Automation Driver/chromedriver.exe"/>
+	<classpathentry exported="true" kind="lib" path="Automation Driver/chromedriver.exe"/>
+	<classpathentry exported="true" kind="lib" path="Drivers/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="Drivers/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="src/drivers/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

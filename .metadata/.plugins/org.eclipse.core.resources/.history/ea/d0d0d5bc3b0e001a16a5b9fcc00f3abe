@@ -1,0 +1,32 @@
+package GroupEx;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverInfo;
+
+
+
+
+public class mortgageEx {
+	public static WebDriver driver;
+	public static void main(String[] args) throws InterruptedException {
+		
+	
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmad\\eclipse-workspace\\newproject\\Drivers\\chromedriver.exe");
+	driver= new ChromeDriver();
+	driver.get("https://www.mortgagecalculator.org ");
+	
+	driver.findElement(By.id("homeval")).sendKeys("500000");
+	Thread.sleep(5000);
+	driver.findElement(By.id("downpayment")).sendKeys("100000");
+	Thread.sleep(5000);
+	driver.findElement(By.id("loanamt")).sendKeys("400000");
+	Thread.sleep(5000);
+	driver.findElement(By.id("intrstsrate")).sendKeys("3.5");
+	Thread.sleep(5000);
+	driver.findElement(By.id("loanterm")).sendKeys("30");
+	Thread.sleep(5000);
+
+}
+}

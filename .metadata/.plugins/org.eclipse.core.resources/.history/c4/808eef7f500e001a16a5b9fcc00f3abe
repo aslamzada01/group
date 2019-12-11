@@ -1,0 +1,66 @@
+package GroupEx;
+
+import static org.testng.Assert.assertFalse;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverInfo;
+import org.openqa.selenium.support.ui.Select;
+
+public class mortgageEx {
+	public static WebDriver driver;
+	public static void main(String[] args) throws InterruptedException {
+		
+	
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmad\\eclipse-workspace\\newproject\\Drivers\\chromedriver.exe");
+	driver= new ChromeDriver();
+	driver.get("https://www.mortgagecalculator.org ");
+	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+	driver.manage().window().maximize();
+	String currentwindow=driver.getCurrentUrl();
+	System.out.println(currentwindow);
+	String currentwindowhandle=driver.getWindowHandle();
+	System.out.println(currentwindowhandle);
+	driver.findElement(By.id("homeval")).sendKeys("500000");
+	Thread.sleep(5000);
+	driver.findElement(By.id("downpayment")).sendKeys("100000");
+	Thread.sleep(5000);
+	
+	Thread.sleep(5000);
+	driver.findElement(By.id("intrstsrate")).sendKeys("3.5");
+	Thread.sleep(5000);
+	driver.findElement(By.id("loanterm")).sendKeys("20");
+	
+	Select month = new Select(driver.findElement(By.name("param[start_month]")));
+	month.selectByVisibleText("Dec");
+	//Select year = new Select (driver.findElement(By.id("start_year")));
+	//year.selectByVisibleText(arg0);
+	driver.findElement(By.id("start_year")).sendKeys("2020");
+    driver.findElement(By.id("pptytax")).sendKeys("4000");
+    driver.findElement(By.id("pmi")).sendKeys("1000");
+    driver.findElement(By.id("hoi")).sendKeys("1000");
+    driver.findElement(By.id("hoa")).sendKeys("200");
+    
+    Select conventional= new Select(driver.findElement(By.name("param[milserve]")));
+    conventional.selectByVisibleText("FHA");
+   
+    driver.findElement(By.name("loantypebutton")).click();
+    Thread.sleep(5000);
+    driver.switchTo().frame(1);  
+    Thread.sleep(5000);
+    
+    String CaptureFHAlone=driver.findElement(By.xpath("//h1[contains(text(),'FHA Loan')]")).getText();
+    
+    Thread.sleep(5000);
+    System.out.println(CaptureFHAlone);
+    
+    String expactedvalue="Minimum Down Payment: 3.5%";
+  //  System.out.println(expactedvalue);
+    String expactedvalue1=driver.findElement(By.xpath("//li[contains(text(),'Minimum Down Payment: 3.5%')]")).getText();
+    System.out.println(expactedvalue1);
+    
+}
+}

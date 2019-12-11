@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23924" started-at="2019-11-04T15:21:56 EST" finished-at="2019-11-04T15:22:20 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23924" started-at="2019-11-04T15:21:56 EST" finished-at="2019-11-04T15:22:20 EST">
+      <class name="TestNGpack.facebook">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:TestNGpack.facebook@63753b6d]" name="setUpBeforeClass" is-config="true" duration-ms="12768" started-at="2019-11-04T15:21:56 EST" finished-at="2019-11-04T15:22:09 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:TestNGpack.facebook@63753b6d]" name="LogIn" duration-ms="5699" started-at="2019-11-04T15:22:09 EST" finished-at="2019-11-04T15:22:15 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="CreatNA()[pri:1, instance:TestNGpack.facebook@63753b6d]" name="CreatNA" duration-ms="5421" started-at="2019-11-04T15:22:15 EST" finished-at="2019-11-04T15:22:20 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatNA -->
+      </class> <!-- TestNGpack.facebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

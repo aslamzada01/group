@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > 
+<suite name = "Function">
+<test name = "Login">
+<classes>
+<class name = "TestNG.firsttest"></class>
+</classes>
+</test>
+<test name= "thirdtest">
+<classes>
+<class name = "TestNG.secondtest"></class> 
+<class name = "TestNG.thirdtest"></class>
+</classes>
+</test>
+
+<test name= "facebook">
+<classes>
+<class name = "TestNGExecute.AmazonTestNG"></class>
+</classes>
+</test>
+</suite>

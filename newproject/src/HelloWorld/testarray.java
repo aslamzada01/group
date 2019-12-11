@@ -1,0 +1,12 @@
+package HelloWorld;
+public class testarray {
+
+   public static void main(String[] args) {
+      int[]myList = {1+9, 2+9, 3+4, 3+5};
+
+      // Print all the array elements
+      for (double   element: myList) {
+         System.out.println(element);
+      }
+   }
+}

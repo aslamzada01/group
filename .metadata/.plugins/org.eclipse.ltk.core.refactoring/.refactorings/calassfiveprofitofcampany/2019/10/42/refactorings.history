@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;newproject/src/classfiveprofitofcompany&apos;&#x0D;&#x0A;- Original project: &apos;calassfiveprofitofcampany&apos;&#x0D;&#x0A;- Destination element: &apos;newproject/src/classfiveprofitofcompany&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     profiteofcampany.java&#x0D;&#x0A;     objectconstructor.java&#x0D;&#x0A;     nonstaticmethodandconstructor.java&#x0D;&#x0A;- Update references to refactored element" description="Move files" destination="=newproject/src&lt;classfiveprofitofcompany" element1="profiteofcampany.java" element2="objectconstructor.java" element3="nonstaticmethodandconstructor.java" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1570989994983" units="0" version="1.0"/>
+</session>

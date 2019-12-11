@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;newproject/src/classsixthobjectconstructor&apos;&#x0D;&#x0A;- Original project: &apos;classsixthobjectconstructor&apos;&#x0D;&#x0A;- Destination element: &apos;newproject/src/classsixthobjectconstructor&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     A.java&#x0D;&#x0A;     B.java&#x0D;&#x0A;     modifiers.java&#x0D;&#x0A;- Update references to refactored element" description="Move files" destination="=newproject/src&lt;classsixthobjectconstructor" element1="A.java" element2="B.java" element3="modifiers.java" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1570990074102" units="0" version="1.0"/>
+</session>
